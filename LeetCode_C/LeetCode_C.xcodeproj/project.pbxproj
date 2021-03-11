@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4244744725F9D25B00C97495 /* Offer_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244744125F9D25B00C97495 /* Offer_13.m */; };
+		4244744825F9D25B00C97495 /* Offer_10_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244744225F9D25B00C97495 /* Offer_10_1.m */; };
+		4244744925F9D25B00C97495 /* Offer_12.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244744425F9D25B00C97495 /* Offer_12.m */; };
+		4244744A25F9D25B00C97495 /* Offer_11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244744525F9D25B00C97495 /* Offer_11.m */; };
 		42EC4FC024CED72C005C0B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FBF24CED72C005C0B51 /* main.m */; };
 		42EC4FCF24CED7CF005C0B51 /* Offer_03.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FCE24CED7CF005C0B51 /* Offer_03.m */; };
 		42EC4FD224D00399005C0B51 /* Offer_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FD124D00399005C0B51 /* Offer_04.m */; };
@@ -27,6 +31,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4244743F25F9D25B00C97495 /* Offer_13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer_13.h; sourceTree = "<group>"; };
+		4244744025F9D25B00C97495 /* Offer_12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer_12.h; sourceTree = "<group>"; };
+		4244744125F9D25B00C97495 /* Offer_13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer_13.m; sourceTree = "<group>"; };
+		4244744225F9D25B00C97495 /* Offer_10_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer_10_1.m; sourceTree = "<group>"; };
+		4244744325F9D25B00C97495 /* Offer_10_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer_10_1.h; sourceTree = "<group>"; };
+		4244744425F9D25B00C97495 /* Offer_12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer_12.m; sourceTree = "<group>"; };
+		4244744525F9D25B00C97495 /* Offer_11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer_11.m; sourceTree = "<group>"; };
+		4244744625F9D25B00C97495 /* Offer_11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer_11.h; sourceTree = "<group>"; };
 		42EC4FBC24CED72C005C0B51 /* LeetCode_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EC4FBF24CED72C005C0B51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42EC4FCD24CED7CF005C0B51 /* Offer_03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer_03.h; sourceTree = "<group>"; };
@@ -78,6 +90,14 @@
 		42EC4FCC24CED7CF005C0B51 /* Offer */ = {
 			isa = PBXGroup;
 			children = (
+				4244744325F9D25B00C97495 /* Offer_10_1.h */,
+				4244744225F9D25B00C97495 /* Offer_10_1.m */,
+				4244744625F9D25B00C97495 /* Offer_11.h */,
+				4244744525F9D25B00C97495 /* Offer_11.m */,
+				4244744025F9D25B00C97495 /* Offer_12.h */,
+				4244744425F9D25B00C97495 /* Offer_12.m */,
+				4244743F25F9D25B00C97495 /* Offer_13.h */,
+				4244744125F9D25B00C97495 /* Offer_13.m */,
 				42EC4FCD24CED7CF005C0B51 /* Offer_03.h */,
 				42EC4FCE24CED7CF005C0B51 /* Offer_03.m */,
 				42EC4FD024D00399005C0B51 /* Offer_04.h */,
@@ -148,9 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EC4FD224D00399005C0B51 /* Offer_04.m in Sources */,
+				4244744925F9D25B00C97495 /* Offer_12.m in Sources */,
 				42EC4FC024CED72C005C0B51 /* main.m in Sources */,
+				4244744725F9D25B00C97495 /* Offer_13.m in Sources */,
+				4244744825F9D25B00C97495 /* Offer_10_1.m in Sources */,
 				42EC523A24D03DB4005C0B51 /* Offer_06.m in Sources */,
 				42EC4FCF24CED7CF005C0B51 /* Offer_03.m in Sources */,
+				4244744A25F9D25B00C97495 /* Offer_11.m in Sources */,
 				42EC523724D023FC005C0B51 /* Offer_05.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
