@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42CBC86C2601FB6A00B136FE /* Offer_21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBC86B2601FB6A00B136FE /* Offer_21.swift */; };
 		42EC4FE024D00BF2005C0B51 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FDF24D00BF2005C0B51 /* main.swift */; };
 		42EC4FE824D00C1F005C0B51 /* Offer-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FE724D00C1F005C0B51 /* Offer-04.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42CBC86B2601FB6A00B136FE /* Offer_21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_21.swift; sourceTree = "<group>"; };
 		42EC4FDC24D00BF2005C0B51 /* LeetCode_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EC4FDF24D00BF2005C0B51 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		42EC4FE724D00C1F005C0B51 /* Offer-04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-04.swift"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				42EC4FE724D00C1F005C0B51 /* Offer-04.swift */,
+				42CBC86B2601FB6A00B136FE /* Offer_21.swift */,
 			);
 			path = Offer;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EC4FE824D00C1F005C0B51 /* Offer-04.swift in Sources */,
+				42CBC86C2601FB6A00B136FE /* Offer_21.swift in Sources */,
 				42EC4FE024D00BF2005C0B51 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
