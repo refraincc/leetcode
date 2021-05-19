@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42434D18261717D6002AA137 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42434D17261717D6002AA137 /* _237_删除链表中的节点.swift */; };
+		42434D1C2617187D002AA137 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42434D1B2617187D002AA137 /* ListNode.swift */; };
+		42434D1F26171BE8002AA137 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42434D1E26171BE8002AA137 /* _206_反转链表.swift */; };
+		4260C3BE264BCE0100F9D08E /* Offer_06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260C3BD264BCE0100F9D08E /* Offer_06.swift */; };
+		42C335422619E5360035968B /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C335412619E5360035968B /* _141_环形链表.swift */; };
 		42CBC86C2601FB6A00B136FE /* Offer_21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBC86B2601FB6A00B136FE /* Offer_21.swift */; };
 		42EC4FE024D00BF2005C0B51 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FDF24D00BF2005C0B51 /* main.swift */; };
 		42EC4FE824D00C1F005C0B51 /* Offer-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC4FE724D00C1F005C0B51 /* Offer-04.swift */; };
@@ -25,6 +30,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42434D17261717D6002AA137 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
+		42434D1B2617187D002AA137 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		42434D1E26171BE8002AA137 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
+		4260C3BD264BCE0100F9D08E /* Offer_06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_06.swift; sourceTree = "<group>"; };
+		42C335412619E5360035968B /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
 		42CBC86B2601FB6A00B136FE /* Offer_21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_21.swift; sourceTree = "<group>"; };
 		42EC4FDC24D00BF2005C0B51 /* LeetCode_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EC4FDF24D00BF2005C0B51 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -42,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42434D16261717B7002AA137 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				42C335412619E5360035968B /* _141_环形链表.swift */,
+				42434D1E26171BE8002AA137 /* _206_反转链表.swift */,
+				42434D17261717D6002AA137 /* _237_删除链表中的节点.swift */,
+				42434D1B2617187D002AA137 /* ListNode.swift */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
 		42EC4FD324D00BF2005C0B51 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +82,7 @@
 		42EC4FDE24D00BF2005C0B51 /* LeetCode_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				42434D16261717B7002AA137 /* 链表 */,
 				42EC4FE624D00C0D005C0B51 /* Offer */,
 				42EC4FDF24D00BF2005C0B51 /* main.swift */,
 			);
@@ -72,6 +94,7 @@
 			children = (
 				42EC4FE724D00C1F005C0B51 /* Offer-04.swift */,
 				42CBC86B2601FB6A00B136FE /* Offer_21.swift */,
+				4260C3BD264BCE0100F9D08E /* Offer_06.swift */,
 			);
 			path = Offer;
 			sourceTree = "<group>";
@@ -134,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4260C3BE264BCE0100F9D08E /* Offer_06.swift in Sources */,
 				42EC4FE824D00C1F005C0B51 /* Offer-04.swift in Sources */,
+				42434D1F26171BE8002AA137 /* _206_反转链表.swift in Sources */,
+				42434D1C2617187D002AA137 /* ListNode.swift in Sources */,
 				42CBC86C2601FB6A00B136FE /* Offer_21.swift in Sources */,
+				42434D18261717D6002AA137 /* _237_删除链表中的节点.swift in Sources */,
+				42C335422619E5360035968B /* _141_环形链表.swift in Sources */,
 				42EC4FE024D00BF2005C0B51 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
